@@ -1,0 +1,57 @@
+{
+  "name": "@mambalabsdev/mcp-spain-company-directory",
+  "version": "1.0.0",
+  "description": "MCP server for Spain Company Directory on Apify: Spanish company data by name, CIF, sector, and status.",
+  "type": "module",
+  "bin": {
+    "mcp-spain-company-directory": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "spain",
+    "company-data",
+    "cif",
+    "nif",
+    "cnae",
+    "borme",
+    "registro-mercantil",
+    "infoempresa",
+    "kyb",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/spain-company-directory",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-spain-company-directory"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-spain-company-directory"
+}

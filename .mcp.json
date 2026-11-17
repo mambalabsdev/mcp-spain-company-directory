@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-spain-company-directory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-spain-company-directory"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
