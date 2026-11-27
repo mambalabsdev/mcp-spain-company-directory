@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-spain-company-directory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Spain Company Directory on Apify: Spanish company data by name, CIF, sector, and status.",
   "type": "module",
   "bin": {
